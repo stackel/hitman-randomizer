@@ -1,0 +1,269 @@
+{
+  "static_items": [
+    "Silenced Pistol",
+    "Snap Neck",
+    "Fiber Wire"
+  ],
+  "static_disguises": [
+    "Suit"
+  ],
+  "static_wildcards": [
+
+  ],
+  "maps": [{
+      "location": "ICA Facility",
+      "mission": {
+        "name": "The Final Test",
+        "targets": [
+          "Jasper Knight"
+        ]
+      },
+      "disguises": [
+        "Training Gear",
+        "Airplane Mechanic",
+        "Airfield Security",
+        "Soviet Soldier",
+        "KGB Officer"
+      ],
+      "weapons": [
+        "Non-Silenced Gun"
+      ]
+    },
+    {
+      "name": "Paris",
+      "mission": {
+        "name": "The Showstopper",
+        "targets": [
+          "Viktor Novikov",
+          "Dalia Margolis"
+        ]
+      },
+      "disguises": [
+        "Auction Staff",
+        "Chef",
+        "CICADA Bodyguard",
+        "Helmut Kruger",
+        "Palace Staff",
+        "Security Guard",
+        "Stylist",
+        "Sheikh Salman al-Ghazali",
+        "Tech Crew",
+        "Vampire Magician"
+      ],
+      "weapons": [
+        "Non-Silenced Gun",
+        "Battle Axe",
+        "Cleaver",
+        "Fire Axe",
+        "Golf Club",
+        "Hatchet",
+        "Letter Opener",
+        "Saber",
+        "Scissors",
+        "Screwdriver",
+        "Explosion"
+      ]
+    },
+    {
+      "location": "Sapienza",
+      "mission": {
+        "name": "World of Tomorrow",
+        "targets": [
+          "Silvia Caruso",
+          "Francesca De Santis"
+        ]
+      },
+      "disguises": [
+        "Italian Suit",
+        "Biolab Security",
+        "Bodyguard",
+        "Bohemian",
+        "Butler",
+        "Church Staff",
+        "Cyclist",
+        "Delivery Man",
+        "Oscar Lafayette",
+        "Gardener",
+        "Green Plumber",
+        "Hazmat Suit",
+        "Housekeeper",
+        "Kitchen Assistant",
+        "Lab Technician",
+        "Mansion Chef",
+        "Mansion Security",
+        "Mansion Staff",
+        "Plague Doctor",
+        "Priest",
+        "Private Detective",
+        "Red Plumber",
+        "Roberto Vargas",
+        "Store Clerk",
+        "Street Performer",
+        "Waiter"
+      ],
+      "weapons": [
+        "Non-Silenced Gun",
+        "Amputation Knife",
+        "Circumcision Knife",
+        "Combat Knife",
+        "Axe",
+        "Folding Knife",
+        "Hatchet",
+        "Golf Club",
+        "Katana",
+        "Kitchen Knife",
+        "Letter Opener",
+        "Saber",
+        "Screwdriver",
+        "Explosion"
+      ]
+    },
+    {
+      "location": "Marrakesh",
+      "mission": {
+        "name": "A Gilded Cage",
+        "targets": [
+          "Claus Hugo Strandberg",
+          "Reza Zaydan"
+        ]
+      },
+      "disguises": [
+        "Bodyguard",
+        "Cameraman",
+        "Consulate Intern",
+        "Consulate Janitor",
+        "Consulate Security",
+        "Elite Soldier",
+        "Food Vendor",
+        "Fortune Teller",
+        "Handyman",
+        "Headmaster",
+        "Local Printing Crew",
+        "Masseur",
+        "Military Officer",
+        "Military Soldier",
+        "Prisoner",
+        "Shopkeeper",
+        "Waiter"
+      ],
+      "weapons": [
+        "Non-Silenced Gun",
+        "Battle Axe",
+        "Cleaver",
+        "Fire Axe",
+        "Folding Knife",
+        "Letter Opener",
+        "Saber",
+        "Scissors",
+        "Screwdriver",
+        "Explosion"
+      ]
+    },
+    {
+      "location": "Bangkok",
+      "mission": {
+        "name": "Club 27",
+        "targets": [
+          "Jordan Cross",
+          "Ken Morgan"
+        ]
+      },
+      "disguises": [
+        "Abel de Silva",
+        "Exterminator",
+        "Groundskeeper",
+        "Hotel Security",
+        "Hotel Staff",
+        "Jordan Cross' Bodyguard",
+        "Kitchen Staff",
+        "Morgan 's Bodyguard",
+        "Recording Crew",
+        "Stalker",
+        "Waiter"
+      ],
+      "weapons": [
+        "Non-Silenced Gun",
+        "Cleaver",
+        "Axe",
+        "Golf Club",
+        "Hatchet",
+        "Katana",
+        "Kitchen Knife",
+        "Letter Opener",
+        "Screwdriver",
+        "Explosion"
+      ]
+    },
+    {
+      "location": "Colorado",
+      "mission": {
+        "name": "Freedom Fighters",
+        "targets": [
+          "Sean Rose",
+          "Ezra Berg",
+          "Penelope Graves",
+          "Maya Parvati"
+        ]
+      },
+      "disguises": [
+        "Explosives Specialist",
+        "Hacker",
+        "Militia Cook",
+        "Militia Elite",
+        "Militia Spec Ops",
+        "Militia Soldier",
+        "Militia Technician",
+        "Point Man",
+        "Scarecrow"
+      ],
+      "weapons": [
+        "Non-Silenced Gun",
+        "Cleaver",
+        "Kitchen Knife",
+        "Screwdriver",
+        "Axe",
+        "Explosion"
+      ]
+    },
+    {
+      "location": "Hokkaido",
+      "mission": {
+        "name": "Situs Inversus",
+        "targets": [
+          "Erich Soders",
+          "Yuki Yamazaki"
+        ]
+      },
+      "disguises": [
+        "Baseball Player",
+        "Bodyguard",
+        "Chef",
+        "Chief Surgeon",
+        "Doctor",
+        "Handyman",
+        "Helicopter Pilot",
+        "Hospital Director",
+        "Morgue Doctor",
+        "Motorcyclist",
+        "Ninja",
+        "Patient",
+        "Resort Security",
+        "Resort Staff",
+        "Surgeon",
+        "VIP Patient",
+        "Yoga Instructor"
+      ],
+      "weapons": [
+        "Non-Silenced Gun",
+        "Scissors",
+        "Katana",
+        "Kitchen Knife",
+        "Axe",
+        "Screwdriver",
+        "Scalpel",
+        "Cleaver",
+        "Explosion"
+      ]
+    }
+  ]
+}
