@@ -1,8 +1,9 @@
 {
-  "static_items": [
+  "static_weapons": [
     "Silenced Pistol",
     "Snap Neck",
-    "Fiber Wire"
+    "Fiber Wire",
+    "Drowning"
   ],
   "static_disguises": [
     "Suit"
@@ -14,9 +15,10 @@
       "location": "ICA Facility",
       "mission": {
         "name": "The Final Test",
-        "targets": [
-          "Jasper Knight"
-        ]
+        "targets": [{
+          "name": "Jasper Knight",
+          "img": "res/jasper-knight.jpg"
+        }]
       },
       "disguises": [
         "Training Gear",
@@ -30,12 +32,17 @@
       ]
     },
     {
-      "name": "Paris",
+      "location": "Paris",
       "mission": {
         "name": "The Showstopper",
-        "targets": [
-          "Viktor Novikov",
-          "Dalia Margolis"
+        "targets": [{
+            "name": "Viktor Novikov",
+            "img": "res/viktor-novikov.png"
+          },
+          {
+            "name": "Dalia Margolis",
+            "img": "res/dalia-margolis.jpg"
+          }
         ]
       },
       "disguises": [
@@ -68,9 +75,14 @@
       "location": "Sapienza",
       "mission": {
         "name": "World of Tomorrow",
-        "targets": [
-          "Silvia Caruso",
-          "Francesca De Santis"
+        "targets": [{
+            "name": "Silvio Caruso",
+            "img": "res/silvio-caruso.png"
+          },
+          {
+            "name": "Fransesca De Santis",
+            "img": "res/fransesca-de-santis.png"
+          }
         ]
       },
       "disguises": [
@@ -122,9 +134,14 @@
       "location": "Marrakesh",
       "mission": {
         "name": "A Gilded Cage",
-        "targets": [
-          "Claus Hugo Strandberg",
-          "Reza Zaydan"
+        "targets": [{
+            "name": "Claus Hugo Strandberg",
+            "img": "res/claus-hugo-strandberg.png"
+          },
+          {
+            "name": "Reza Zaydan",
+            "img": "res/reza-zaydan.png"
+          }
         ]
       },
       "disguises": [
@@ -163,9 +180,14 @@
       "location": "Bangkok",
       "mission": {
         "name": "Club 27",
-        "targets": [
-          "Jordan Cross",
-          "Ken Morgan"
+        "targets": [{
+            "name": "Jordan Cross",
+            "img": "res/jordan-cross.png"
+          },
+          {
+            "name": "Ken Morgan",
+            "img": "res/ken-morgan.png"
+          }
         ]
       },
       "disguises": [
@@ -198,11 +220,22 @@
       "location": "Colorado",
       "mission": {
         "name": "Freedom Fighters",
-        "targets": [
-          "Sean Rose",
-          "Ezra Berg",
-          "Penelope Graves",
-          "Maya Parvati"
+        "targets": [{
+            "name": "Maya Parvati",
+            "img": "res/maya-parvati.png"
+          },
+          {
+            "name": "Penelope Graves",
+            "img": "res/penelope-graves.png"
+          },
+          {
+            "name": "Ezra Berg",
+            "img": "res/ezra-berg.png"
+          },
+          {
+            "name": "Sean Rose",
+            "img": "res/sean-rose.png"
+          }
         ]
       },
       "disguises": [
@@ -229,9 +262,14 @@
       "location": "Hokkaido",
       "mission": {
         "name": "Situs Inversus",
-        "targets": [
-          "Erich Soders",
-          "Yuki Yamazaki"
+        "targets": [{
+            "name": "Yuki Yamazaki",
+            "img": "res/yuki-yamazaki.png"
+          },
+          {
+            "name": "Erich Soders",
+            "img": "res/erich-soders.png"
+          }
         ]
       },
       "disguises": [

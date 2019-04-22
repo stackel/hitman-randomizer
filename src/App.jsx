@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
 import data from './data.json';
+import Target from './Target';
 
 class App extends React.Component {
   constructor(props) {
@@ -20,22 +20,40 @@ class App extends React.Component {
     map.mission.targets.forEach((target) => {
       targets.push({
         name: target,
-        weapon: this.getRandom(map.weapons),
-        disguise: this.getRandom(map.disguises),
+        weapon: this.getRandom(map.weapons.concat(data.static_weapons)),
+        disguise: this.getRandom(map.disguises.concat(data.static_disguises)),
       });
     });
     return targets;
   }
 
-  getRandom = obj => obj[Math.floor(Math.random() * (obj.length - 1))]
+  getRandom = obj => obj[Math.floor(Math.random() * (obj.length))]
 
   render() {
     const { location, mission, targets } = this.state;
+
+    const TargetComponents = targets.map(
+      target => (
+        <Target
+          target={target.name}
+          weapon={target.weapon}
+          disguise={target.disguise}
+        />
+      ),
+    );
+
     return (
       <div>
-        <pre>{JSON.stringify(location, null, 4)}</pre>
-        <pre>{JSON.stringify(mission, null, 4)}</pre>
-        <pre>{JSON.stringify(targets, null, 4)}</pre>
+        <img src="res/bg.jpg" className="absolute vh-100 w-100 o-c" alt="hitman-loading-screen" />
+        <div className="absolute">
+          <div className="pl4 pt5">
+            {TargetComponents}
+            <div className="ph4">
+              <h1 className="open-sans f1 white">{location}</h1>
+              <h2 className="open-sans f2 white">{mission}</h2>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
